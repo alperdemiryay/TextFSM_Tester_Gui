@@ -1,7 +1,6 @@
-import textfsm
+import textfsm, io
 from tkinter import *
 from tkinter import scrolledtext
-import io
 
 def clicked():
     parsingResultBox.delete('1.0', END)
